@@ -1,0 +1,8 @@
+1.      pip install PyInstaller
+        pip install altgraph
+
+2.      pyinstaller  --noconsole --icon=images/lines.ico app.py
+
+3.      Edit app.spec
+
+4.      pyinstaller app.spec
